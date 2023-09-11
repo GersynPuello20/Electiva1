@@ -1,0 +1,25 @@
+/* Importacin de tipografía */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,900&display=swap');
+/* Selector universal */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Selector de etiqueta */
+h1{
+    font-family: 'Poppins';
+    font-weight: 900;
+    color: gray;
+}
+/* Selector de etiqueta */
+h2{
+    color: red;
+}
+/* Selector de id */
+#site_text{
+    background-color: black;
+}
+/* Selector de clases */
+.subtitles{
+    font-family: 'Poppins';
+}
