@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style_login.css">
     <style>
-        body{
+        /* body{
             background-color: antiquewhite;
             display: inline-block;
         }
@@ -13,30 +14,50 @@
             text-decoration: none;
             justify-content: center;
             color: black;
-        }
+        } */
     </style>
 </head>
 <body>
-    <ul>
-        <li><a href="html/tablas.html">Ir a tablas</a></li>
-    </ul>
-    <ul>
-        <li><a href="html/mutimedia.html">Ir a multimedia</a></li>
-    </ul>
-    <ul>
-        <li><a href="html/form.html">Ir a formulario</a></li>
-    </ul>
-    <ul>
-        <li><a href="html/texto.html">Ir a texto</a></li>
-    </ul>
-    <ul>
-        <li><a href="html/semantica.html">Ir a semanticas</a></li>
-    </ul>
-    <ul>
-        <li><a href="html/estilos.html">Ir a estilos</a></li>
-    </ul>
-    <ul>
-        <li><a href="html/flexbox.html">Ir a Flexbox</a></li>
-    </ul>
+    <div class="background"></div>
+    <div class="centering">
+        <form action="" class="my_form">
+            <div class="login_welcome">
+                <img src="https://static.vecteezy.com/system/resources/previews/012/318/303/non_2x/cute-astronaut-kick-a-planet-astronaut-icon-concept-flat-cartoon-style-suitable-for-web-landing-page-banner-flyer-sticker-card-vector.jpg" alt="astronauta" class="login">
+                <h1>INICIAR SESIÓN</h1>
+            </div>
+            <!-- .text_field>label{EMAIL}+input#email+img -->
+            <div class="text_field">
+                <label for="email">EMAIL</label>
+                <input 
+                type="email"
+                id="email" 
+                name="email" 
+                aria-label="Email" 
+                placeholder="Ingrese su correo electrónico"
+                required>
+                <img src="https://static.vecteezy.com/system/resources/previews/003/135/414/non_2x/planet-saturn-gold-line-art-icon-vector.jpg" alt="">
+            </div>
+            <div class="text_field">
+                <label for="password">PASSWORD</label>
+                <input 
+                type="password" 
+                id="password" 
+                name="password" 
+                placeholder="Ingrese su credencial" 
+                required>
+                <img src="https://static.vecteezy.com/system/resources/previews/003/135/414/non_2x/planet-saturn-gold-line-art-icon-vector.jpg" alt="">
+            </div>
+            <input type="submit" class="my_form_button" value="Login">
+            <div class="my_form_actions">
+                <div class="my_form">
+                    <span>Olvidaste tu contraseña</span>
+                    <a href="#" title="Recuperar contraseña">Recuperar contraseña</a>
+                </div>
+                <div class="my_form_signup">
+                    <a href="#" title="Create Account">Crear cuenta</a>
+                </div>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
